@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.project1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:5:5-81
+13-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:6:5-66
+14-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:6:22-63
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:7:5-64
+15-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:8:5-78
+16-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:9:5-78
+17-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:10:5-79
+18-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:11:1-76
+19-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:11:18-74
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.facebook.flipper:flipper:0.33.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\1eecfda46fbb5792db10db025c69f7af\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+20-->[com.facebook.flipper:flipper:0.33.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\1eecfda46fbb5792db10db025c69f7af\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->[:react-native-maps] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+21-->[:react-native-maps] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+22-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+27-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:26:22-79
+28    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+29    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+30    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+31    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+32    <!-- for Samsung -->
+33    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+33-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:19:5-86
+33-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:19:22-83
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+34-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:20:5-87
+34-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:20:22-84
+35    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+35-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:23:5-81
+35-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:23:22-78
+36    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+36-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:24:5-83
+36-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:24:22-80
+37    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+37-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:27:5-88
+37-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:27:22-85
+38    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+38-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:28:5-92
+38-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:28:22-89
+39    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+39-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:31:5-84
+39-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:31:22-81
+40    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+40-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:34:5-83
+40-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:34:22-80
+41    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+41-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:37:5-91
+41-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:37:22-88
+42    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+42-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:38:5-92
+42-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:38:22-89
+43    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+43-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:39:5-93
+43-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:39:22-90
+44    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+44-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:42:5-73
+44-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:42:22-70
+45    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:45:5-82
+45-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:45:22-79
+46    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+46-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:46:5-83
+46-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:46:22-80
+47    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+47-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:49:5-88
+47-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:49:22-85
+48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+48-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:50:5-89
+48-->[me.leolin:ShortcutBadger:1.1.21] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\b9257e978af1e1b386e17f4481c34222\ShortcutBadger-1.1.21\AndroidManifest.xml:50:22-86
+49
+50    <application
+50-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:12:5-41:19
+51        android:name="com.project1.MainApplication"
+51-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:13:7-38
+52        android:allowBackup="false"
+52-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:17:7-34
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.1.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\51c60a74c89e63786feb7a72e94c376c\core-1.1.0\AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:15:7-41
+56        android:label="@string/app_name"
+56-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:14:7-39
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:16:7-52
+58        android:theme="@style/AppTheme"
+58-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:18:7-38
+59        android:usesCleartextTraffic="true" > <!-- AIzaSyC9c57SfszYzX0OZ6vNfQip7UUX8Pli7FQ -->
+59-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\debug\AndroidManifest.xml:7:18-53
+60        <uses-library
+60-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:20:9-87
+61            android:name="org.apache.http.legacy"
+61-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:20:23-60
+62            android:required="false" />
+62-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:20:61-85
+63
+64        <meta-data
+64-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:22:9-23:70
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:22:20-65
+66            android:value="AIzaSyC9c57SfszYzX0OZ6vNfQip7UUX8Pli7FQ" />
+66-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:23:13-68
+67
+68        <activity
+68-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:24:7-34:18
+69            android:name="com.project1.MainActivity"
+69-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:25:9-37
+70            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+70-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:27:9-86
+71            android:label="@string/app_name"
+71-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:26:9-41
+72            android:launchMode="singleTask"
+72-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:28:9-40
+73            android:windowSoftInputMode="adjustResize" >
+73-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:29:9-51
+74            <intent-filter>
+74-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:30:9-33:25
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:31:13-65
+75-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:31:21-62
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:32:13-73
+77-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:32:23-70
+78            </intent-filter>
+79        </activity>
+80        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+80-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:35:7-84
+80-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:35:17-81
+81
+82        <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService" >
+82-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:36:9-40:19
+82-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:36:18-91
+83            <intent-filter>
+83-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:37:13-39:29
+84                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+84-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:38:17-78
+84-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:38:25-75
+85            </intent-filter>
+86        </service>
+87        <service
+87-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\7b65dbfacc3808ade347d51c6f44c55c\firebase-storage-19.1.1\AndroidManifest.xml:32:13-37
+91            <meta-data
+91-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:85
+92                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+92-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-116
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:react-native-firebase] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\7b65dbfacc3808ade347d51c6f44c55c\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+95                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+95-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\7b65dbfacc3808ade347d51c6f44c55c\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\7b65dbfacc3808ade347d51c6f44c55c\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+98                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+98-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:32:13-34:85
+101                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+101-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:33:17-96
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:34:17-82
+103        </service>
+104
+105        <provider
+105-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+106            android:name="com.imagepicker.FileProvider"
+106-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+107            android:authorities="com.project1.provider"
+107-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+108            android:exported="false"
+108-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+109            android:grantUriPermissions="true" >
+109-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+110            <meta-data
+110-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+112                android:resource="@xml/provider_paths" />
+112-->[:react-native-image-picker] C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+113        </provider>
+114
+115        <activity
+115-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+116            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+116-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+119            android:launchMode="singleTask"
+119-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+120            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+120-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\abad56a0508fb47c0542cd22cd06f355\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+122        <!--
+123             FirebaseMessagingService performs security checks at runtime,
+124             but set to not exported to explicitly avoid allowing another app to call it.
+125        -->
+126        <service
+126-->[com.google.firebase:firebase-messaging:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\1811586b44fd2853f8fe432fd730079b\jetified-firebase-messaging-19.0.1\AndroidManifest.xml:28:9-34:19
+127            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+127-->[com.google.firebase:firebase-messaging:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\1811586b44fd2853f8fe432fd730079b\jetified-firebase-messaging-19.0.1\AndroidManifest.xml:29:13-82
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-messaging:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\1811586b44fd2853f8fe432fd730079b\jetified-firebase-messaging-19.0.1\AndroidManifest.xml:30:13-37
+129            <intent-filter android:priority="-500" >
+129-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:37:13-39:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:38:17-78
+130-->C:\Users\NISHCHAY S K\important documents\Desktop\FoodOrderingApp\FoodOrderingApp\android\app\src\main\AndroidManifest.xml:38:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:37:9-44:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:38:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:39:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:40:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:41:13-43:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:42:17-81
+139-->[com.google.firebase:firebase-iid:19.0.1] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\057872ce137a2410d2dc0d615fb96fca\firebase-iid-19.0.1\AndroidManifest.xml:42:25-78
+140            </intent-filter>
+141        </receiver>
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+147
+148        <provider
+148-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+149            android:name="com.google.firebase.provider.FirebaseInitProvider"
+149-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+150            android:authorities="com.project1.firebaseinitprovider"
+150-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\d9e7d4f8bbb2de8bc37e3c04bac89349\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+153
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\09cb33a1b371b226546f8e270e88807f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\09cb33a1b371b226546f8e270e88807f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NISHCHAY S K\.gradle\caches\transforms-2\files-2.1\09cb33a1b371b226546f8e270e88807f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+157    </application>
+158
+159</manifest>
